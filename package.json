@@ -1,7 +1,7 @@
 {
 	"type": "module",
 	"dependencies": {
-		"@biscuitland/core": "^1.1.0",
+		"@biscuitland/core": "^1.2.0",
 		"dotenv": "^16.0.1"
 	}
 }
