@@ -1,7 +1,29 @@
 {
-	"type": "module",
-	"dependencies": {
-		"@biscuitland/core": "^1.1.0",
-		"dotenv": "^16.0.1"
-	}
+  "name": "uselesscomplete",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "bot was created with the sole purpose of replying to messages with the word \"que\" with the word \"so\"",
+  "main": "index.js",
+  "dependencies": {
+    "@biscuitland/core": "^1.2.0",
+    "dotenv": "^16.0.1",
+    "ws": "^8.8.1"
+  },
+  "scripts": {
+    "start": "node  --experimental-fetch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NejireSupremacy/UselessComplete.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "NejireSupremacy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NejireSupremacy/UselessComplete/issues"
+  },
+  "homepage": "https://github.com/NejireSupremacy/UselessComplete#readme"
 }
