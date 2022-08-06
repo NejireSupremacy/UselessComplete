@@ -6,6 +6,7 @@ const messageCreateE = (message) => {
 		content: 'so',
 		messageReference: {
 			messageId: message.id,
+			failIfNotExists: true
 		},
 	}).catch();
 };

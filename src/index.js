@@ -11,7 +11,7 @@ const intents =
 	GatewayIntents.Guilds |
 	GatewayIntents.GuildMessages |
 	GatewayIntents.MessageContent;
-
+	
 const session = new Session({ token: process.env.TOKEN, intents });
 
 session.events.once('ready', (client) => readyE(client, session));
