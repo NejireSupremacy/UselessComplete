@@ -1,5 +1,5 @@
 const messageCreateE = (message) => {
-	const regex = /\b(qu[eé])\W*$/i;
+	const regex = /(qu[eé])\W*$/i;
 	if (!regex.test(message.content)) return;
 
 	message.reply({
@@ -8,7 +8,7 @@ const messageCreateE = (message) => {
 			messageId: message.id,
 			failIfNotExists: true
 		},
-	}).catch();
+	});
 };
 
 export { messageCreateE };
