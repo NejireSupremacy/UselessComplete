@@ -2,7 +2,7 @@
 	"version": "2.0.0",
 	"type": "module",
 	"dependencies": {
-		"@biscuitland/core": "^1.2.0",
-		"dotenv": "^16.0.1"
+		"@biscuitland/core": "^2.0.4",
+		"dotenv": "^16.0.2"
 	}
 }
